@@ -1,0 +1,26 @@
+
+html{
+	font-size: 14px;
+	min-width: 320px;
+	overflow-x: auto;
+}
+.App{
+	.app-header{
+		padding: 1.5em;
+		@media only screen and (max-width: 767px){
+			text-align: center;
+		}
+	}
+	.without-label{
+		@media only screen and (max-width: 767px){
+			margin-top: 5px !important;
+		}
+	}
+	.app-form{
+		padding-bottom: 30px;
+		.wide.field{
+			display: inline-block !important;
+		}
+	}
+
+}
